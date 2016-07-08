@@ -6,10 +6,7 @@ import logging
 import sys
 from optparse import Option
 
-import curtsies
-import curtsies.window
-import curtsies.input
-import curtsies.events
+from .vendor import curtsies
 
 from bpython.curtsiesfrontend.repl import BaseRepl
 from bpython.curtsiesfrontend.coderunner import SystemExitFromCodeGreenlet

@@ -4,8 +4,8 @@ import sys
 import os
 from contextlib import contextmanager
 
-from curtsies.formatstringarray import FormatStringTest, fsarray
-from curtsies.fmtfuncs import cyan, bold, green, yellow, on_magenta, red
+from ..vendor.curtsies.formatstringarray import FormatStringTest, fsarray
+from ..vendor.curtsies.fmtfuncs import cyan, bold, green, yellow, on_magenta, red
 
 from bpython.curtsiesfrontend.events import RefreshRequestEvent
 from bpython.test import mock

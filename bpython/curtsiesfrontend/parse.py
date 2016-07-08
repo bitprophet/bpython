@@ -6,8 +6,8 @@ import re
 
 from bpython.lazyre import LazyReCompile
 
-from curtsies.termformatconstants import FG_COLORS, BG_COLORS, colors
-from curtsies.formatstring import fmtstr, FmtStr
+from ..vendor.curtsies.termformatconstants import FG_COLORS, BG_COLORS, colors
+from ..vendor.curtsies.formatstring import fmtstr, FmtStr
 
 
 cnames = dict(zip('krgybmcwd', colors + ('default',)))

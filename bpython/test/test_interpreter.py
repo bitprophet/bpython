@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 import sys
 
-from curtsies.fmtfuncs import bold, green, magenta, cyan, red, plain
+from ..vendor.curtsies.fmtfuncs import bold, green, magenta, cyan, red, plain
 
 from bpython.curtsiesfrontend import interpreter
 from bpython._py3compat import py3

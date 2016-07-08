@@ -6,7 +6,7 @@ from collections import namedtuple
 from bpython.curtsies import combined_events
 from bpython.test import (FixLanguageTestCase as TestCase, unittest)
 
-import curtsies.events
+from ..vendor import curtsies
 
 
 ScheduledEvent = namedtuple('ScheduledEvent', ['when', 'event'])

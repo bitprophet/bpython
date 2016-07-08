@@ -1,7 +1,7 @@
 """Non-keyboard events used in bpython curtsies REPL"""
 import time
 
-import curtsies.events
+from ..vendor import curtsies
 
 
 class ReloadEvent(curtsies.events.Event):

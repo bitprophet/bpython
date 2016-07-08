@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import greenlet
 import time
-import curtsies.events as events
+from ..vendor.curtsies import events
 
 from bpython.repl import Interaction as BpythonInteraction
 from bpython.curtsiesfrontend.events import RefreshRequestEvent

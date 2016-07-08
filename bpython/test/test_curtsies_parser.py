@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from bpython.test import unittest
 from bpython.curtsiesfrontend import parse
-from curtsies.fmtfuncs import yellow, cyan, green, bold
+from ..vendor.curtsies.fmtfuncs import yellow, cyan, green, bold
 
 
 class TestExecArgs(unittest.TestCase):

@@ -5,9 +5,9 @@ import logging
 import itertools
 from six.moves import range
 
-from curtsies import fsarray, fmtstr
-from curtsies.formatstring import linesplit
-from curtsies.fmtfuncs import bold
+from ..vendor.curtsies import fsarray, fmtstr
+from ..vendor.curtsies.formatstring import linesplit
+from ..vendor.curtsies.fmtfuncs import bold
 
 from bpython.curtsiesfrontend.parse import func_for_letter
 from bpython._py3compat import py3

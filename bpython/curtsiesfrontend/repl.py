@@ -21,10 +21,10 @@ from pygments.formatters import TerminalFormatter
 
 import blessings
 
-import curtsies
-from curtsies import FSArray, fmtstr, FmtStr, Termmode
-from curtsies import fmtfuncs
-from curtsies import events
+from ..vendor import curtsies
+from ..vendor.curtsies import FSArray, fmtstr, FmtStr, Termmode
+from ..vendor.curtsies import fmtfuncs
+from ..vendor.curtsies import events
 
 import bpython
 from bpython.repl import Repl as BpythonRepl, SourceNotFound
@@ -49,7 +49,7 @@ from bpython.curtsiesfrontend.preprocess import preprocess
 from bpython.curtsiesfrontend.interpreter import (Interp,
                                                   code_finished_will_parse)
 
-from curtsies.configfile_keynames import keymap as key_dispatch
+from ..vendor.curtsies.configfile_keynames import keymap as key_dispatch
 
 if not py3:
     import imp

@@ -20,7 +20,7 @@ from bpython._py3compat import py3
 from bpython.test import (FixLanguageTestCase as TestCase, MagicIterMock, mock,
                           unittest)
 
-from curtsies import events
+from ..vendor.curtsies import events
 
 if py3:
     from importlib import invalidate_caches
