@@ -8,7 +8,7 @@ import logging
 import re
 import sys
 
-import blessings
+from .. import blessings
 
 from .formatstring import fmtstr
 from .formatstringarray import FSArray
